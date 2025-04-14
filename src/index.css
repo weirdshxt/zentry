@@ -179,6 +179,12 @@ body {
 
 /* new version code style */
 
+ .animated-word {
+    transform: translate3d(10px, -31px, -60px) rotateY(-60deg) rotateX(-30deg);
+    transform-origin: 50% 50% -150px !important;
+    will-change: opacity, transform;
+  }
+
  .mask-clip-path {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
